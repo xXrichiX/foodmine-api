@@ -246,7 +246,7 @@
   - [x] Create order service
     - [x] Add create function
   - [x] Create Auth interceptor
-    - [x] Add to index.js
+    - [x] Add to 
 
 ## 16. Payment Page
 
