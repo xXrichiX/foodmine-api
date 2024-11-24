@@ -7,7 +7,10 @@
     "start": "cd backend && npm start",
     "prebuild": "cd backend && npm install && cd frontend && npm install",
     "build": "cd frontend && npm run build",
-    "postbuild": "cp -r frontend/build/* backend/src/public/"  
+    "postbuild": "xcopy /E /Y frontend\\build\\* backend\\src\\public\\"
+
+
+    
   },
   "keywords": [],
   "author": "",
